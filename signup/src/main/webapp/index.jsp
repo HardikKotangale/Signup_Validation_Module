@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>Oytie - Job Portal</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -50,11 +47,13 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" href="about_us.html" id="nav1">About Us</a>
                         </li>
-                        <li class="nav-item pt-3">
-                            <a href="login.jsp">
-                                <button class="btn btn-light">SignIn/LogIn</button>
+                        <li class="nav-item pt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <%--<a href="login.jsp">--%>
+                            
+                                <button class="btn btn-light">SignIn/SignUp</button>
                             </a>
                         </li>
+                        
 
 
                     </ul>
@@ -64,6 +63,20 @@
         </nav>
 </body>
 </header>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <a class="btn btn-outline" href="registration.jsp" role="button">Client SignIn</a>
+        <a class="btn btn-outline" href="login.jsp" role="button">Client SignUp</a>
+		<hr>
+        <a class="btn btn-outline" href="registration1.jsp" role="button">Company SignIn</a>
+        <a class="btn btn-outline" href="login1.jsp" role="button">Company SignUp</a>
+      </div>
+    </div>
+  </div>
+ 
+
+</body>
 <section class="hero-area">
     <class="container">
         <div class="row">

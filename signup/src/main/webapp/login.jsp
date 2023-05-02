@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Sign Up Form by Colorlib</title>
+<title>Candidate Sign-Up</title>
 
 <!-- Font Icon -->
 <link rel="stylesheet"
@@ -29,7 +29,7 @@
 					</div>
 
 					<div class="signin-form">
-						<h2 class="form-title">Sign in</h2>
+						<h2 class="form-title">Sign Up</h2>
 						<form method="post" action="<%=request.getContextPath()%>/login" class="register-form"
 							id="login-form">
 							<div class="form-group">
